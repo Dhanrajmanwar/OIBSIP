@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(79, 76, 76);
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#navbar .left {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: underline;
+    color: aquamarine;
+    position: absolute;
+    left: 3%;
+}
+
+#navbar .mid {
+    margin: 5px auto;
+    padding: 5px 70px;
+
+}
+
+#navbar .mid ul {
+    display: flex;
+   margin-top: 10px;
+
+}
+
+#navbar .mid ul li {
+    list-style: none;
+}
+
+#navbar .mid ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar .mid ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+
+}
+
+
+/* Section */
+
+
+#sec1 {
+    border: 2px solid red;
+    background-color: black;
+    padding: 15px;
+    margin: 10px;
+    height: 600px;
+    margin-top: 45px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#p {
+
+    position: relative;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    text-decoration: underline;
+    color: crimson;
+    text-align: center;
+
+}
+
+#sec1 .self {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 34px;
+    width: 53%;
+    height: 200px;
+    top: 40%;
+    left: 40%;
+    font-size: 25px;
+    color: coral;
+
+}
+
+#sec1 .self p {
+    padding: 0px 34px;
+    margin: 34px;
+    position: absolute;
+    right: 10%;
+}
+
+h2 {
+    position: absolute;
+    right: 45%;
+    top: 40%;
+}
+
+#sec1 .pic {
+    border: 2px solid white;
+    position: absolute;
+    padding: 5px;
+    margin: 10%;
+    left: 10%;
+    top: 130px;
+    width: 250px;
+    height: 250px;
+    background: url('../img/dhana.jpeg')no-repeat center center/cover;
+
+}
+
+#sec2 {
+    border: 2px solid green;
+    background-color: black;
+    padding: 15px;
+    margin: 10px;
+    height: 600px;
+
+}
+
+#s {
+    position: relative;
+
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+}
+
+#sec2 ul {
+
+    position: relative;
+    left: 45%;
+
+}
+
+#sec2 ul li {
+    padding: 15px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+#sec2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+}
+
+#sec3 {
+
+    border: 2px solid violet;
+    background-color: black;
+
+    padding: 15px;
+    margin: 10px;
+    height: 600px;
+
+}
+
+#e {
+    position: relative;
+
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+}
+
+
+#sec3 h3 {
+    position: relative;
+    left: 40%;
+    top: 15%;
+    padding: 10px;
+    font-size: 23px;
+}
+
+#sec4 h2 {
+    position: absolute;
+    color: red;
+    top: 84%;
+    right: 43%;
+    font-size: 40px
+}
+
+#sec4 {
+    position: relative;
+    border: 2px solid yellow;
+    background-color: black;
+    padding: 15px;
+    margin: 10px;
+    height: 600px;
+    font-family: 'Bree Serif', serif;
+}
+
+#q {
+    position: relative;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+}
+
+#sec4 .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+}
+
+#sec4 .image img {
+    height: 70px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+#arrow {
+    background-color: red;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.8rem;
+}
