@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+}
+body{
+    background-color: black;
+}
+#temp{
+ border: 2px solid red;
+ background-color: rgb(106, 130, 106);
+ color: white;
+ height: 380px;
+ width: 45%;
+ margin:100px auto;
+ 
+}
+#temp .con{
+ font-size: 34px;
+ position: absolute;
+ top: 13%;
+ margin-left: 60px;
+
+}
+#temp img{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 17px;
+    left: -5%;
+}
+
+ #temp .box{
+    border: 2px solid red;
+    background-color: rgb(251, 237, 237);
+    height: 200px;
+    width: 700px;
+    margin-top: 15%;
+    margin-left: 10%;
+    
+}
+#temp .box .b{
+    display: flex;
+    align-items: center;
+    height: 200px;
+
+}
+#temp .box h2{
+    color: black;
+    margin: 10px;
+    margin-left: 50px;
+} 
+#temp .box input{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 10px;
+} 
