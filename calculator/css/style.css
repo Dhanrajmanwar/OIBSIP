@@ -1,0 +1,131 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+body {
+    background: url(../img/nature.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+#box {
+    border: 2px solid red;
+    background-color: black;
+    height: 600px;
+    width: 400px;
+    padding: 34px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.sbox {
+    height: 135px;
+    width: 464px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+
+#screen {
+    font-size: 2.6rem;
+    text-align: right;
+    padding-right: 18px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    height: 137px;
+    width: 446px;
+}
+
+#navbar {
+    background-color: greenyellow;
+    padding: 5px;
+    width: 458px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar .cal {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 34px;
+
+}
+
+#bot {
+    position: relative;
+    top: 28%;
+    left: 1%;
+
+}
+
+#bot .btn {
+    margin: 5px;
+    padding: 25px;
+    width: 21%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#bot .btn:hover {
+    background-color: white;
+}
+
+.plus {
+    position: relative;
+    top: 77px;
+    left: -1%;
+    height: 170px;
+    margin: 4px;
+    width: 21%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-color: white;
+}
+
+.cancle {
+    position: relative;
+    top: 21%;
+    left: 1%;
+    height: 72px;
+    margin: 5px;
+    width: 32%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(241, 83, 83);
+}
+
+.cancle:hover {
+    background-color: red;
+}
+
+.equal {
+    position: relative;
+    top: 21%;
+    left: 1%;
+    height: 72px;
+    margin: 15px;
+    width: 32%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(194, 247, 115);
+}
+
+.equal:hover {
+    background-color: greenyellow;
+}
