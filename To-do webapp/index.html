@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Webapp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+</head>
+<body>
+    <h4>To Do Webapp </h4>
+    <div id="box1">
+        <input type="text" id="title" placeholder="Title">
+        <textarea name="Discription" id="desc" cols="30" rows="10" placeholder="Description"></textarea>
+    </div>
+    <button id="btn" onclick="Add()">+</button>
+    <table border="1" id="table"> </table>
+    <div class="line"></div>
+
+
+
+    <script>
+
+        Add=()=>{
+
+let title=document.getElementById('title').value;
+let desc=document.getElementById('desc').value;
+if(title==""||desc==""){
+   alert("Please put Title or Description");
+}
+else{
+let table=document.getElementById('table');
+const row=document.createElement('tr');
+const col1=document.createElement('td');
+const col2=document.createElement('td');
+const col3=document.createElement('td');
+document.getElementById('title').value="";
+document.getElementById('desc').value="";
+col1.innerHTML=title;
+col2.innerHTML=desc;
+col3.innerHTML="<Button class='btn' onclick='DeleteTask(this)'>Delete</Button>";
+row.appendChild(col1);
+row.appendChild(col2);
+row.appendChild(col3);
+table.appendChild(row);}
+DeleteTask=(button)=>{
+var tab=document.getElementById('table');
+tab.deleteRow(button.parentNode.parentNode.rowindex);
+}
+
+
+
+   }
+    </script>
+    
+</body>
+</html>

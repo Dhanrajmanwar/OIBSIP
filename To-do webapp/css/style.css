@@ -1,0 +1,67 @@
+*{
+    font-family: "Audiowide", sans-serif;
+}
+body{
+    background-color: aquamarine;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+#box1{
+    width: 45%;
+    height: 250px;
+    font-size: 1rem;
+}
+#box1 input{
+    width: 30%;
+    height: 3%;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    border-radius: 10px;
+}
+#box1 textarea{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 26%;
+    left: 35%;
+}
+#btn{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px auto;
+    border-radius: 10px;
+    background-color: rgb(198, 72, 198);
+    cursor: pointer;
+    font-size: 1.8rem;
+    border: none;
+}
+#btn:hover{
+background-color: blueviolet;
+}
+
+.line{
+    display: flex;
+}
+table{
+    margin: 10px auto;
+}
+td{
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+.btn{
+    background-color: rgb(242, 110, 110);
+    border: none;
+    font-size: 1.2rem;
+}
